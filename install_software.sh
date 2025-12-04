@@ -33,5 +33,5 @@ stow .
 
 # Clean up
 echo "Removing all downloaded repos..."
-sudo rm -r --noconfirm ~/yay
+sudo rm -rf ~/yay
 sudo rm -r --noconfirm ~/.zenith-Dotfiles
