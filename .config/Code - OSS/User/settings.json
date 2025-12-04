@@ -1,0 +1,24 @@
+{
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDelete": false,
+    "editor.inlayHints.enabled": "on",
+    "php.inlayHints.types.lambdaParameter": false,
+    "php.inlayHints.insertOnDoubleClick": false,
+    "php.inlayHints.parameters.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.blend": "default"
+    },
+    "explorer.compactFolders": false
+}
