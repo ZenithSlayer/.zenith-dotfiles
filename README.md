@@ -3,3 +3,9 @@
 Here's a quick tutorital
 
 Once you clone the repository, just run the intall_software.sh file and it should install all that i normally use
+
+so run
+```
+chmod +x intall_software.sh
+```
+so the script can run
