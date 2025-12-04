@@ -17,7 +17,7 @@ yay -Syu --noconfirm
 
 # Install preferred software
 echo "Installing preferred software..."
-yay -S --noconfirm kitty code steam starship  stow
+yay -S --noconfirm kitty code steam starship stow
 
 # Remove unwanted software
 echo "Removing unwanted software..."
@@ -29,9 +29,8 @@ echo "Installation complete. All done!"
 # Config with Stow
 echo "Putting Configs in their places..."
 cd ~/.zenith-Dotfiles
-stow .
+stow --override .
 
 # Clean up
 echo "Removing all downloaded repos..."
 sudo rm -rf ~/yay
-sudo rm -r --noconfirm ~/.zenith-Dotfiles
